@@ -29,4 +29,3 @@ file { "${::settings::confdir}/hiera.yaml":
   ensure => link,
   target => "${::settings::codedir}/hiera/${environment}/hiera.yaml"
 }
->>>>>>> test
