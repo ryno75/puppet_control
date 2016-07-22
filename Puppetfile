@@ -25,8 +25,10 @@ mod 'puppetlabs-inifile'
 mod 'puppetlabs-gcc'
 mod 'puppetlabs-git'
 mod 'puppetlabs-pe_gem'
+mod 'puppetlabs-registry'
 mod 'puppetlabs-vcsrepo'
 mod 'stankevich-python'
+mod 'stahnma-epel'
 
 
 ## Custom Modules (e.g. role, components)
