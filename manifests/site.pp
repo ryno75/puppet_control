@@ -12,6 +12,5 @@
 ## Active Configurations ##
 
 # we're keeping it simple here...
-# Just include the roles module, it will do the rest
-include roles
-
+# Using Hiera as an external ENC to include all roles per our hieradata
+hiera_include('classes')
