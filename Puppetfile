@@ -28,7 +28,15 @@ mod 'puppetlabs-vcsrepo'
 mod 'stankevich-python'
 
 
-## Custom Modules (e.g. role, components)
+## Custom Modules (e.g. role, profiles, components)
 mod 'roles',
   :git => 'https://github.com/ryno75/puppet_roles.git'
+  :ref => 'prod'
+
+mod 'profiles',
+  :git => 'https://github.com/ryno75/puppet_profiles.git'
+  :ref => 'prod'
+
+mod 'users',
+  :git => 'https://github.com/ryno75/puppet_users.git'
   :ref => 'prod'
