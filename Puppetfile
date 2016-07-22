@@ -2,6 +2,7 @@ forge 'http://forge.puppetlabs.com'
 
 ## Modules from the Puppet Forge
 mod 'puppetlabs/stdlib'
+mod 'puppetlabs/apache', '1.10.0'
 mod 'puppetlabs/motd'
 mod 'puppetlabs/reboot'
 mod 'puppetlabs/ruby', '0.4.0'
