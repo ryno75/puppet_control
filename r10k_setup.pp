@@ -4,12 +4,12 @@ class { 'r10k':
   manage_modulepath => false,
   sources           => {
     'puppet' => {
-      'remote'  => 'https://github.com/ryno75/puppet_control.git'
+      'remote'  => 'https://github.com/ryno75/puppet_control.git',
       'basedir' => "${::settings::codedir}/environments",
       'prefix'  => false,
     },
     'hiera' => {
-      'remote'  => 'https://github.com/ryno75/puppet_hiera.git'
+      'remote'  => 'https://github.com/ryno75/puppet_hiera.git',
       'basedir' => "${::settings::codedir}/hiera",
       'prefix'  => false,
     }
