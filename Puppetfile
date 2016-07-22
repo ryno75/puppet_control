@@ -30,14 +30,18 @@ mod 'stankevich-python'
 
 
 ## Custom Modules (e.g. role, profiles, components)
-mod 'roles',
-  :git => 'https://github.com/ryno75/puppet_roles.git'
+mod 'puppet_masterless',
+  :git => 'https://github.com/ryno75/puppet_masterless.git',
   :ref => 'prod'
 
 mod 'profiles',
-  :git => 'https://github.com/ryno75/puppet_profiles.git'
+  :git => 'https://github.com/ryno75/puppet_profiles.git',
+  :ref => 'prod'
+
+mod 'roles',
+  :git => 'https://github.com/ryno75/puppet_roles.git',
   :ref => 'prod'
 
 mod 'users',
-  :git => 'https://github.com/ryno75/puppet_users.git'
+  :git => 'https://github.com/ryno75/puppet_users.git',
   :ref => 'prod'
