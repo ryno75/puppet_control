@@ -33,6 +33,10 @@ mod 'stahnma-epel'
 
 
 ## Custom Modules (e.g. role, components)
+mod 'jamwiki',
+  :git => 'https://github.com/ryno75/puppet_jamwiki.git',
+  :ref => 'test'
+
 mod 'puppet_masterless',
   :git => 'https://github.com/ryno75/puppet_masterless.git',
   :ref => 'test'
