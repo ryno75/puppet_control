@@ -7,8 +7,8 @@ mod 'puppetlabs/motd'
 mod 'puppetlabs/reboot'
 mod 'puppetlabs/ruby', '0.4.0'
 mod 'puppetlabs/tomcat', '1.5.0'
-mod 'jfryman/nginx', '0.3.0'
 mod 'jbeard/portmap'
+mod 'jfryman/nginx', '0.3.0'
 mod 'zack/r10k'
 
 ## Dependency modules for the above
