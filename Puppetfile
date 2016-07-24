@@ -33,8 +33,8 @@ mod 'stahnma-epel'
 
 ## Forge Modules that require versions not yet available on the forge
 mod 'nginx',
-  :git => 'https://github.com/jfryman/puppet-nginx.git',
-  :ref => 'ifca0c6c1503c4f867efb3e940469224e11ac4fca'
+  :git => 'https://github.com/ryno75/puppet-nginx.git',
+  :ref => 'ddc52d1813e2d7c078adfe74a04f7fcc3bf8f411'
 
 ## Custom Modules (e.g. role, components)
 mod 'jamwiki',
