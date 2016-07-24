@@ -8,7 +8,6 @@ mod 'puppetlabs/reboot'
 mod 'puppetlabs/ruby', '0.4.0'
 mod 'puppetlabs/tomcat', '1.5.0'
 mod 'jbeard/portmap'
-mod 'jfryman/nginx', '0.3.0'
 mod 'zack/r10k'
 
 ## Dependency modules for the above
@@ -31,6 +30,11 @@ mod 'puppetlabs-vcsrepo'
 mod 'stankevich-python'
 mod 'stahnma-epel'
 
+
+## Forge Modules that require versions not yet available on the forge
+mod 'nginx',
+  :git => 'https://github.com/jfryman/puppet-nginx.git',
+  :ref => 'ifca0c6c1503c4f867efb3e940469224e11ac4fca'
 
 ## Custom Modules (e.g. role, components)
 mod 'jamwiki',
